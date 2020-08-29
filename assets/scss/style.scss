@@ -8,6 +8,10 @@ html, body {
   background-color: $site-background-color;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .site-body {
   position: relative;
   margin: 0;

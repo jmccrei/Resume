@@ -1,7 +1,18 @@
 @import "variables";
 
 .site-footer {
+  position: relative;
   padding-top: 3rem;
   padding-bottom: 3rem;
   background-color: $right-background-color;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 30vw;
+    background-color: $right-background-color;
+    left: -30vw;
+  }
 }

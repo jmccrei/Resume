@@ -43,7 +43,7 @@ const App = ({
     // return our app wrapped in IntlProvider
     return <IntlProvider locale={locale} messages={translations[locale] || {}} defaultLocale={defaultLocale}>
         <Provider store={store}>
-            <div className="site-container">
+            <div className="site-container container">
                 <Header/>
                 <Row as={"section"} className="site-body">
                     <Col xs={12} sm={12} md={7} lg={8} className="content-column">

@@ -16,14 +16,27 @@
   min-width: 2rem;
   min-height: 2rem;
   z-index: 99;
+  border: 1px solid transparent;
 
   &.open {
     background-color: darken($right-background-color, 10%);
+    border: 1px solid #a8dde6;
+    overflow-x: hidden;
+    box-shadow: -1px 1px 3px #DEDEDE;
+
+    .toggler {
+      position: relative;
+      right: -2px;
+    }
   }
 
   .icon-row {
     cursor: pointer;
     text-decoration: none;
+
+    &:hover {
+      background-color: darken($right-background-color-hexa, 15%);
+    }
 
     &:first-child {
       border-bottom: 1px solid $right-background-color;

@@ -245,7 +245,8 @@ const SkillsConfig = ({showLabels = false, showTooltips = true, onToggleLabels, 
     // render()
     return <div style={style}
                 className={classnames({"skills-config": true, "open": show})}
-                onClick={() => setShow(!show)}>
+                onClick={() => setShow( !show)}
+                onMouseEnter={() => setShow(true)} onMouseLeave={() => setShow(false)}>
         <div className={"toggler text-right"}>
             <FontAwesomeIcon
                 style={{"--skills-config-toggler-float": show ? 'right' : 'none'}}

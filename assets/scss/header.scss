@@ -29,6 +29,23 @@ header.site-header {
   .toolbar-container {
     order: 2;
 
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 30vw;
+      background-color: #a8dde6;
+    }
+
+    &:before {
+      left: -30vw;
+    }
+
+    &:after {
+      right: -30vw;
+    }
+
     @include media-breakpoint-up('md') {
       order: 3;
     }
