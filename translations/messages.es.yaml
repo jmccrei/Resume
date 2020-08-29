@@ -11,7 +11,7 @@ help:
   from_email: Tu dirección de correo electrónico para que pueda contactarte.
   title: Título del correo electrónico (10 caracteres o más)
 links:
-  github_db_roles_access: Paquete Symfony - Roles de bases de datos | Acceso (PRÓXIMAMENTE)
+  github_db_roles_access: Paquete Symfony - Roles basados ​​en datos | Acceso (PRÓXIMAMENTE)
   github_db_roles_access_description: >-
     En lugar de declarar estáticamente todos los roles y accesos a través de la
     configuración, este paquete permitirá volcar roles y accesos a la base de
@@ -79,7 +79,7 @@ section:
   experience:
     mk2:
       description: Consulte sobre una variedad de sistemas y proyectos.
-      title: Desarrollador principal
+      title: Consultor
     mk2solutions:
       assessed: >-
         Información evaluada obtenida durante las reuniones con los clientes

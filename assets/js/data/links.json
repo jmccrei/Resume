@@ -58,7 +58,7 @@
         "description": "word"
       },
       "description": {
-        "id": "links.github_db_roles_access_description",
+        "id": "links.github_reverse_discriminator_description",
         "defaultMessage": "Instead of declaring @ORM\\DiscriminatorMap and declaring all possible children, this bundle will give the ability to place @DiscriminatorChild on the child Entity instead."
       },
       "href": "https://github.com/jmccrei",
@@ -70,12 +70,12 @@
     {
       "text": {
         "id": "links.github_db_roles_access",
-        "defaultMessage": "Symfony Bundle - Databases Roles|Access",
+        "defaultMessage": "Symfony Bundle - Databased Roles|Access",
         "description": "word"
       },
       "title": {
         "id": "links.github_db_roles_access",
-        "defaultMessage": "Symfony Bundle - Databases Roles|Access",
+        "defaultMessage": "Symfony Bundle - Databased Roles|Access",
         "description": "word"
       },
       "description": {

@@ -11,7 +11,7 @@ help:
   from_email: Votre adresse e-mail pour que je puisse vous recontacter.
   title: Titre de l'e-mail (10 caractères ou plus)
 links:
-  github_db_roles_access: Symfony Bundle - Rôles des bases de données | Accès (PROCHAINEMENT)
+  github_db_roles_access: Symfony Bundle - Rôles basés sur les données | Accès (À VENIR)
   github_db_roles_access_description: >-
     Plutôt que de déclarer statiquement tous les rôles et accès via config, ce
     bundle autorisera le vidage des rôles et des accès à la base de données.
@@ -76,7 +76,7 @@ section:
   experience:
     mk2:
       description: Consultez sur une variété de systèmes et de projets.
-      title: Développeur principal
+      title: Consultant
     mk2solutions:
       assessed: >-
         Évaluer les informations recueillies lors des réunions avec les clients
