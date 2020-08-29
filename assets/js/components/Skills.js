@@ -82,7 +82,7 @@ const Skills = ({stack, skills, showLabels, showTooltips, toggleSkillsLabel, tog
         const rendered = [];
         const {items, progress, key} = section;
         const first = idx === 0;
-        const title = t.formatMessage({
+        const title = t.intl.formatMessage({
             id: `section.skills.titles.${key.replace(' ', '_').toLowerCase()}`,
             defaultMessage: key,
             description: 'Skill title'
@@ -104,7 +104,7 @@ const Skills = ({stack, skills, showLabels, showTooltips, toggleSkillsLabel, tog
                         let addText = null;
 
                         if (item.hasOwnProperty('id')) {
-                            addText = t.formatMessage({
+                            addText = t.intl.formatMessage({
                                 id: item.id,
                                 defaultMessage: item.defaultMessage || item.text || null
                             });
@@ -123,6 +123,10 @@ const Skills = ({stack, skills, showLabels, showTooltips, toggleSkillsLabel, tog
                 }
             }
 
+            // sort the items list alphabetically
+            itemsList.sort((a, b) => {
+                return a < b ? -1 : (a > b ? 1 : 0);
+            });
 
             // add our joined list back to the rendered section array
             rendered.push(<Col key={key} className={"list"} xs={12}>
@@ -245,7 +249,7 @@ const SkillsConfig = ({showLabels = false, showTooltips = true, onToggleLabels, 
     // render()
     return <div style={style}
                 className={classnames({"skills-config": true, "open": show})}
-                onClick={() => setShow( !show)}
+                onClick={() => setShow(!show)}
                 onMouseEnter={() => setShow(true)} onMouseLeave={() => setShow(false)}>
         <div className={"toggler text-right"}>
             <FontAwesomeIcon

@@ -20,7 +20,7 @@ import Contact from "./Contact";
  * @constructor
  */
 const Header = ({general}) => {
-    const {name} = general;
+    const {name, title} = general;
     const t = useTrans();
 
     // noinspection JSValidateJSDoc
@@ -96,6 +96,7 @@ const Header = ({general}) => {
         <Row as="header" className="site-header">
             <Col xs={12} sm={12} md={7} lg={8} className="text-center left">
                 <h1>{t.formatMessage(name)}</h1>
+                <span className={"sub-title text-muted font-italic"}>{t.formatMessage(title)}</span>
             </Col>
             <Col xs={12} sm={12} md={5} lg={4} className="right">
                 <Contact/>

@@ -1,5 +1,14 @@
 {
-  "name": "Josh McCreight",
+  "name": {
+    "id": "me.name",
+    "defaultMessage": "Josh McCreight",
+    "description": "My name"
+  },
+  "title": {
+    "id": "me.title",
+    "defaultMessage": "Senior Web Applications Developer",
+    "description": "My title"
+  },
   "phone": "xxx.xxx.xxxx",
   "phone_icon": "fa-phone",
   "email": "josh@joshmccreight.ca",

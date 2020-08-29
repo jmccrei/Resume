@@ -24,6 +24,9 @@ links:
     the child Entity instead.
 location:
   victoria: 'Victoria, British Columbia'
+me:
+  name: Josh McCreight
+  title: Senior Web Applications Developer
 phrases:
   payment_management_paypal_authnet: Payment Management (Paypal/Authorize.Net)
   translations_by_google: All non English translations provided by google translate
@@ -221,6 +224,7 @@ section:
       lives: >-
         ‘Lives & breathes’ programming, taking pride in ability to overcome the
         ‘impossible challenges’
+      saas: 'In-Depth experience with creating, maintaining and using SaaS'
       skilled: >-
         Skilled in object-oriented programming, building contemporary, clean,
         scalable, readable and reusable code
@@ -329,6 +333,7 @@ words:
   reacttsjs: React (ts|js)
   rest: REST
   rest_internal: Internal REST
+  saas: SaaS
   scss: Scss
   senior_developer: Senior Developer
   server_administration: Server Administration

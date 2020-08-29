@@ -187,481 +187,197 @@
       "items": [
         {
           "id": "words.jenkins",
-          "text": "Jenkins",
-          "order": 0,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Jenkins"
         },
         {
           "id": "words.docker",
-          "text": "Docker",
-          "order": 1,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Docker"
         },
         {
           "id": "words.nodejs",
-          "text": "NodeJS",
-          "order": 2,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "NodeJS"
         },
         {
           "id": "words.npm",
-          "text": "NPM",
-          "order": 3,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "NPM"
         },
         {
           "id": "words.yarn",
-          "text": "Yarn",
-          "order": 4,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Yarn"
         },
         {
           "id": "words.composer",
-          "text": "Composer",
-          "order": 5,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Composer"
         },
         {
           "id": "words.vmware",
-          "text": "VMWare",
-          "order": 6,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "VMWare"
         },
         {
           "id": "words.gulp",
-          "text": "Gulp",
-          "order": 7,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Gulp"
         },
         {
           "id": "words.grunt",
-          "text": "Grunt",
-          "order": 8,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Grunt"
         },
         {
           "id": "words.underscore",
-          "text": "Underscore",
-          "order": 8,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Underscore"
         },
         {
           "id": "words.unit_tests",
-          "text": "Unit Tests",
-          "order": 8,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Unit Tests"
         },
         {
           "id": "words.backbone",
-          "text": "Backbone",
-          "order": 8,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Backbone"
         },
         {
           "id": "words.javascript",
-          "text": "Javascript",
-          "order": 8,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Javascript"
         },
         {
           "id": "words.extjs",
-          "text": "ExtJs",
-          "order": 9,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "ExtJs"
         },
         {
           "id": "words.mustache",
-          "text": "Mustache",
-          "order": 10,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Mustache"
         },
         {
           "id": "words.jqplot",
-          "text": "jQPlot",
-          "order": 11,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "jQPlot"
         },
         {
           "id": "words.highcharts",
-          "text": "Highcharts",
-          "order": 12,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Highcharts"
         },
         {
           "id": "words.bookit",
-          "text": "Bookit",
-          "order": 13,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Bookit"
         },
         {
           "id": "words.datatables",
-          "text": "Datatables",
-          "order": 14,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Datatables"
         },
         {
           "id": "words.photoshop",
-          "text": "Photoshop",
-          "order": 15,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Photoshop"
         },
         {
           "id": "words.phpmyadmin",
-          "text": "PHPMyAdmin",
-          "order": 16,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "PHPMyAdmin"
         },
         {
           "id": "words.pgadmin",
-          "text": "PgAdmin",
-          "order": 17,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "PgAdmin"
         },
         {
           "id": "words.mysql",
-          "text": "MySql",
-          "order": 17,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "MySql"
         },
         {
           "id": "words.gitlab",
-          "text": "GitLab",
-          "order": 18,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "GitLab"
         },
         {
           "id": "words.pipelines",
-          "text": "Pipelines",
-          "order": 19,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Pipelines"
         },
         {
           "id": "words.cico",
-          "text": "CI/CO",
-          "order": 20,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "CI/CO"
         },
         {
           "id": "words.netbeans",
-          "text": "Netbeans",
-          "order": 20,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Netbeans"
         },
         {
-          "text": "C",
-          "order": 20,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "C"
         },
         {
-          "text": "C++",
-          "order": 20,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "C++"
         },
         {
           "id": "words.nuxeo",
-          "text": "Nuxeo",
-          "order": 20,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Nuxeo"
         },
         {
           "id": "words.mentorship",
-          "text": "Mentorship",
-          "order": 20,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Mentorship"
         },
         {
           "id": "words.doctrine",
-          "text": "Doctrine",
-          "order": 20,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Doctrine"
         },
         {
           "id": "words.twig",
-          "text": "Twig",
-          "order": 20,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Twig"
         },
         {
           "id": "words.json",
-          "text": "JSON",
-          "order": 21,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "JSON"
         },
         {
           "id": "words.rest",
-          "text": "REST",
-          "order": 22,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "REST"
         },
         {
           "id": "words.soap",
-          "text": "SOAP",
-          "order": 23,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "SOAP"
         },
         {
           "id": "words.postman",
-          "text": "Postman",
-          "order": 24,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Postman"
         },
         {
           "id": "words.moneris",
-          "text": "Moneris",
-          "order": 25,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Moneris"
         },
         {
           "id": "words.paypal",
-          "text": "Paypal",
-          "order": 26,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Paypal"
         },
         {
           "id": "words.authorizenet",
-          "text": "Authorize.net",
-          "order": 27,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Authorize.net"
         },
         {
           "id": "words.django",
-          "text": "Django",
-          "order": 28,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": true
-          }
+          "text": "Django"
         },
         {
           "id": "words.mocha_jasmine",
-          "text": "Mocha/Jasmine",
-          "order": 3,
-          "bold": {
-            "full_stack": false,
-            "back_end": false,
-            "front_end": true
-          }
+          "text": "Mocha/Jasmine"
         },
         {
           "id": "words.phpunit",
-          "text": "PHPUnit",
-          "order": 12,
-          "bold": {
-            "full_stack": true,
-            "back_end": false,
-            "front_end": false
-          }
+          "text": "PHPUnit"
         },
         {
           "id": "words.xdebug",
-          "text": "XDebug",
-          "order": 29,
-          "bold": {
-            "full_stack": true,
-            "back_end": true,
-            "front_end": false
-          }
+          "text": "XDebug"
         },
         {
           "id": "words.webpack",
-          "text": "Webpack",
-          "order": 30,
-          "bold": {
-            "full_stack": false,
-            "back_end": false,
-            "front_end": true
-          }
+          "text": "Webpack"
         },
         {
           "id": "words.jira",
-          "defaultMessage": "Jira",
-          "order": 31,
-          "bold": {
-            "full_stack": false,
-            "back_end": false,
-            "front_end": false
-          }
+          "defaultMessage": "Jira"
         },
         {
           "id": "words.confluence",
-          "text": "Confluence",
-          "order": 31,
-          "bold": {
-            "full_stack": false,
-            "back_end": false,
-            "front_end": false
-          }
+          "text": "Confluence"
         },
         {
           "id": "words.agile_development",
-          "defaultMessage": "Agile development",
-          "order": 31,
-          "bold": {
-            "full_stack": false,
-            "back_end": false,
-            "front_end": false
-          }
+          "defaultMessage": "Agile development"
+        },
+        {
+          "id": "words.saas",
+          "defaultMessage": "SaaS"
         }
       ]
     }

@@ -47,6 +47,11 @@
       "id": "section.summary.items.driven",
       "defaultMessage": "Driven to stay current in knowledge and well ahead of consumer trends",
       "description": "List item"
+    },
+    {
+      "id": "section.summary.items.saas",
+      "defaultMessage": "In-Depth experience with creating, maintaining and using SaaS",
+      "description": "List item"
     }
   ]
 }

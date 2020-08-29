@@ -36,7 +36,15 @@ const getDefaultState = () => {
                 if (data.hasOwnProperty('translations')) {
                     delete data.translations;
                 }
-                return {...data};
+                // We are going to NOT use the sections information
+                // Instead, just the config settings will remain
+                return {
+                    ...initialState,
+                    config: {
+                        ...initialState.config,
+                        ...(data?.config || {})
+                    }
+                };
             }
         } catch (e) {
             // do nothing

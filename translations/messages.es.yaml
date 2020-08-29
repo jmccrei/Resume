@@ -25,6 +25,9 @@ links:
     la entidad secundaria.
 location:
   victoria: 'Victoria, Columbia Británica'
+me:
+  name: Josh McCreight
+  title: Desarrollador Senior de Aplicaciones Web
 phrases:
   payment_management_paypal_authnet: Gestión de pagos (Paypal/Authorize.Net)
   translations_by_google: Todas las traducciones no inglesas proporcionadas por el traductor de Google
@@ -236,6 +239,7 @@ section:
       lives: >-
         Programación "vive y respira", enorgulleciéndose de la capacidad de
         superar los "desafíos imposibles"
+      saas: 'Experiencia en profundidad en la creación, mantenimiento y uso de SaaS'
       skilled: >-
         Experto en programación orientada a objetos, construyendo código
         contemporáneo, limpio, escalable, legible y reutilizable
@@ -346,6 +350,7 @@ words:
   reacttsjs: React (ts|js)
   rest: REST
   rest_internal: Internal REST
+  saas: SaaS
   scss: Scss
   senior_developer: Desarrollador Senior
   server_administration: Administración del servidor
