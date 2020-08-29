@@ -1,0 +1,53 @@
+{
+  "location": "sidebar",
+  "text": {
+    "id": "section.education.title",
+    "defaultMessage": "Education",
+    "description": "Education section title"
+  },
+  "order": {
+    "full": 4,
+    "back": 4,
+    "front": 4
+  },
+  "items": [
+    {
+      "title": {
+        "id": "section.education.uvic.title",
+        "defaultMessage": "Bachelors of Computer Science",
+        "description": "title"
+      },
+      "from": 2006,
+      "to": 2010,
+      "school": {
+        "id": "section.education.uvic.school",
+        "defaultMessage": "University of Victoria",
+        "description": "school"
+      },
+      "description": {
+        "id": "section.education.uvic.description",
+        "defaultMessage": "Graphics and Gaming Option - Math intensive, theory and concepts behind modern programming practices and optimizing database structures. Emphasis on OOP.",
+        "description": "description"
+      }
+    },
+    {
+      "title": {
+        "id": "section.education.coma.title",
+        "defaultMessage": "Diploma in New Media Studies",
+        "description": "title"
+      },
+      "from": 2000,
+      "to": 2001,
+      "school": {
+        "id": "section.education.coma.school",
+        "defaultMessage": "Computer Master",
+        "description": "school"
+      },
+      "description": {
+        "id": "section.education.coma.description",
+        "defaultMessage": "Flash, Macromedia, HTML, CSS, Javascript. Computer animation and contemporary web/graphic design.",
+        "description": "description"
+      }
+    }
+  ]
+}

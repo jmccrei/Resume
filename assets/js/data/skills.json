@@ -1,0 +1,669 @@
+{
+  "location": "custom",
+  "text": "Skills",
+  "order": {
+    "full": 0,
+    "back": 0,
+    "front": 0
+  },
+  "items": {
+    "Languages": {
+      "progress": true,
+      "order": {
+        "full": 0,
+        "back": 0,
+        "front": 4
+      },
+      "items": [
+        {
+          "text": "PHP",
+          "years": "15+",
+          "percent": 100
+        },
+        {
+          "text": "CSS",
+          "years": "15+",
+          "percent": 100
+        },
+        {
+          "text": "HTML",
+          "years": "15+",
+          "percent": 100
+        },
+        {
+          "text": "JS",
+          "years": "15+",
+          "percent": 100
+        },
+        {
+          "text": "Typescript",
+          "years": "5+",
+          "percent": 80
+        },
+        {
+          "text": "Less/Scss",
+          "years": "5+",
+          "percent": 80
+        }
+      ]
+    },
+    "PHP Frameworks": {
+      "progress": true,
+      "order": {
+        "full": 1,
+        "back": 1,
+        "front": 5
+      },
+      "items": [
+        {
+          "text": "Symfony",
+          "years": "10+",
+          "percent": 100
+        },
+        {
+          "text": "Zend Framework",
+          "years": "5+",
+          "percent": 75
+        },
+        {
+          "text": "Wordpress",
+          "years": "2+",
+          "percent": 50
+        },
+        {
+          "text": "Drupal 7+",
+          "years": "2+",
+          "percent": 50
+        }
+      ]
+    },
+    "Javascript Frameworks": {
+      "progress": true,
+      "order": {
+        "full": 2,
+        "back": 2,
+        "front": 0
+      },
+      "items": [
+        {
+          "text": "jQuery",
+          "years": "15+",
+          "percent": 100
+        },
+        {
+          "text": "Angular",
+          "years": "4+",
+          "percent": 100
+        },
+        {
+          "text": "React(ts|js)",
+          "years": "4+",
+          "percent": 80
+        }
+      ]
+    },
+    "Styling Frameworks": {
+      "progress": true,
+      "order": {
+        "full": 3,
+        "back": 3,
+        "front": 1
+      },
+      "items": [
+        {
+          "text": "Bootstrap",
+          "years": "10+",
+          "percent": 100
+        },
+        {
+          "text": "Material Design",
+          "years": "5+",
+          "percent": 80
+        }
+      ]
+    },
+    "Version Control": {
+      "progress": true,
+      "order": {
+        "full": 4,
+        "back": 4,
+        "front": 2
+      },
+      "items": [
+        {
+          "text": "Git",
+          "years": "10+",
+          "percent": 100
+        },
+        {
+          "text": "Svn",
+          "years": "10+",
+          "percent": 50
+        }
+      ]
+    },
+    "Software": {
+      "progress": true,
+      "order": {
+        "full": 5,
+        "back": 5,
+        "front": 3
+      },
+      "items": [
+        {
+          "text": "PHPStorm",
+          "years": "10+",
+          "percent": 100,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "text": "Atlassian Suite",
+          "years": "10+",
+          "percent": 100
+        },
+        {
+          "text": "Eclipse* IDE's",
+          "years": "10+",
+          "percent": 100
+        },
+        {
+          "text": "MS Office",
+          "years": "10+",
+          "percent": 100
+        }
+      ]
+    },
+    "Misc": {
+      "progress": false,
+      "order": {
+        "full": 6,
+        "back": 6,
+        "front": 6
+      },
+      "items": [
+        {
+          "id": "words.jenkins",
+          "text": "Jenkins",
+          "order": 0,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.docker",
+          "text": "Docker",
+          "order": 1,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.nodejs",
+          "text": "NodeJS",
+          "order": 2,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.npm",
+          "text": "NPM",
+          "order": 3,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.yarn",
+          "text": "Yarn",
+          "order": 4,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.composer",
+          "text": "Composer",
+          "order": 5,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.vmware",
+          "text": "VMWare",
+          "order": 6,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.gulp",
+          "text": "Gulp",
+          "order": 7,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.grunt",
+          "text": "Grunt",
+          "order": 8,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.underscore",
+          "text": "Underscore",
+          "order": 8,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.unit_tests",
+          "text": "Unit Tests",
+          "order": 8,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.backbone",
+          "text": "Backbone",
+          "order": 8,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.javascript",
+          "text": "Javascript",
+          "order": 8,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.extjs",
+          "text": "ExtJs",
+          "order": 9,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.mustache",
+          "text": "Mustache",
+          "order": 10,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.jqplot",
+          "text": "jQPlot",
+          "order": 11,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.highcharts",
+          "text": "Highcharts",
+          "order": 12,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.bookit",
+          "text": "Bookit",
+          "order": 13,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.datatables",
+          "text": "Datatables",
+          "order": 14,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.photoshop",
+          "text": "Photoshop",
+          "order": 15,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.phpmyadmin",
+          "text": "PHPMyAdmin",
+          "order": 16,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.pgadmin",
+          "text": "PgAdmin",
+          "order": 17,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.mysql",
+          "text": "MySql",
+          "order": 17,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.gitlab",
+          "text": "GitLab",
+          "order": 18,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.pipelines",
+          "text": "Pipelines",
+          "order": 19,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.cico",
+          "text": "CI/CO",
+          "order": 20,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.netbeans",
+          "text": "Netbeans",
+          "order": 20,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "text": "C",
+          "order": 20,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "text": "C++",
+          "order": 20,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.nuxeo",
+          "text": "Nuxeo",
+          "order": 20,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.mentorship",
+          "text": "Mentorship",
+          "order": 20,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.doctrine",
+          "text": "Doctrine",
+          "order": 20,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.twig",
+          "text": "Twig",
+          "order": 20,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.json",
+          "text": "JSON",
+          "order": 21,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.rest",
+          "text": "REST",
+          "order": 22,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.soap",
+          "text": "SOAP",
+          "order": 23,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.postman",
+          "text": "Postman",
+          "order": 24,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.moneris",
+          "text": "Moneris",
+          "order": 25,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.paypal",
+          "text": "Paypal",
+          "order": 26,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.authorizenet",
+          "text": "Authorize.net",
+          "order": 27,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.django",
+          "text": "Django",
+          "order": 28,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.mocha_jasmine",
+          "text": "Mocha/Jasmine",
+          "order": 3,
+          "bold": {
+            "full_stack": false,
+            "back_end": false,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.phpunit",
+          "text": "PHPUnit",
+          "order": 12,
+          "bold": {
+            "full_stack": true,
+            "back_end": false,
+            "front_end": false
+          }
+        },
+        {
+          "id": "words.xdebug",
+          "text": "XDebug",
+          "order": 29,
+          "bold": {
+            "full_stack": true,
+            "back_end": true,
+            "front_end": false
+          }
+        },
+        {
+          "id": "words.webpack",
+          "text": "Webpack",
+          "order": 30,
+          "bold": {
+            "full_stack": false,
+            "back_end": false,
+            "front_end": true
+          }
+        },
+        {
+          "id": "words.jira",
+          "defaultMessage": "Jira",
+          "order": 31,
+          "bold": {
+            "full_stack": false,
+            "back_end": false,
+            "front_end": false
+          }
+        },
+        {
+          "id": "words.confluence",
+          "text": "Confluence",
+          "order": 31,
+          "bold": {
+            "full_stack": false,
+            "back_end": false,
+            "front_end": false
+          }
+        },
+        {
+          "id": "words.agile_development",
+          "defaultMessage": "Agile development",
+          "order": 31,
+          "bold": {
+            "full_stack": false,
+            "back_end": false,
+            "front_end": false
+          }
+        }
+      ]
+    }
+  }
+}

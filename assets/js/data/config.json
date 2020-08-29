@@ -1,0 +1,9 @@
+{
+  "engine": "react",
+  "translate": true,
+  "locale": "en",
+  "stack": "full",
+  "show_skills_labels": false,
+  "skills_tooltips": true,
+  "clear": true
+}

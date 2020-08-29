@@ -1,0 +1,44 @@
+@import "variables";
+
+
+:root {
+  --skills-config-width: 2rem;
+  --skills-config-height: 2rem;
+}
+
+.skills-config {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.25rem 0.5rem;
+  width: var(--skills-config-width);
+  height: var(--skills-config-height);
+  min-width: 2rem;
+  min-height: 2rem;
+  z-index: 99;
+
+  &.open {
+    background-color: darken($right-background-color, 10%);
+  }
+
+  .icon-row {
+    cursor: pointer;
+    text-decoration: none;
+
+    &:first-child {
+      border-bottom: 1px solid $right-background-color;
+    }
+
+    &:last-child {
+      border-top: 1px solid $right-background-color;
+    }
+
+    .grow2 {
+      flex-grow: 2;
+    }
+  }
+
+  .toggler {
+    cursor: pointer;
+  }
+}

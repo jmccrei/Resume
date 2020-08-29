@@ -1,0 +1,33 @@
+language: php
+services:
+  - mysql
+cache:
+  yarn: true
+  directories:
+    - "$HOME/.composer/cache/files"
+    - "$HOME/.yarn-cache"
+    - node_modules
+node_js:
+  - 12.18.1
+dist: xenial
+os: linux
+jobs:
+  fast_finish: true
+  include:
+    - php: 7.3
+env:
+  - SYMFONY_VERSION="5.1.*" DB=mysql
+before_install:
+  - composer self-update
+  - nvm install 12.18.1
+  - nvm use 12.18.1
+install:
+  #  - cp .env.travis.dist .env
+  - composer install
+  #  - php bin/console doctrine:database:create --env=test
+  #  - php bin/console doctrine:schema:create --env=test
+  #  - php bin/console doctrine:fixtures:load -n --env=test
+  - yarn install
+  - yarn dev
+  - ls -la bin
+  - php bin/phpunit

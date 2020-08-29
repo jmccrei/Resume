@@ -1,0 +1,356 @@
+contact:
+  cancel: Cancel
+  close: Close
+  submit: Submit
+  submitted: >-
+    Thank you for sending me an email. Please allow me 24 to 48 hours to review
+    and respond.
+  title: Contact me
+help:
+  body: What would you like to contact me about? (25 characters or more)
+  from_email: Your email address so I can contact you back.
+  title: Title of the email (10 characters or more)
+links:
+  github_db_roles_access: Symfony Bundle - Databases Roles|Access (COMING SOON)
+  github_db_roles_access_description: >-
+    Rather than statically declaring all roles and accesses through config, this
+    bundle will allow dumping roles and accesses to the database. Uses
+    subscribers to update, verify, validate and sync config roles and accesses
+    to those entered into the database.
+  github_reverse_discriminator: Symfony Bundle - Reverse Entity Discriminator (COMING SOON)
+  github_reverse_discriminator_description: >-
+    Instead of declaring @ORM\DiscriminatorMap and declaring all possible
+    children, this bundle will give the ability to place @DiscriminatorChild on
+    the child Entity instead.
+location:
+  victoria: 'Victoria, British Columbia'
+phrases:
+  payment_management_paypal_authnet: Payment Management (Paypal/Authorize.Net)
+  translations_by_google: All non English translations provided by google translate
+placeholder:
+  body: What would you like to contact me about?
+  from_email: email@domain.com
+  title: Inquiry from joshmccreight.ca
+section:
+  competencies:
+    items:
+      change: Change and thought leadership leading to innovation and evolution
+      demonstrated: >-
+        Demonstrated proficiency in developing/designing and working with proper
+        REST APIs
+      developing: >-
+        Developing and sustaining strong working relationships – both client and
+        staff
+      effectively: >-
+        Effectively demonstrated proper use of coding standards and frequently
+        consulted on best practices and methods for upcoming tasks and/or
+        projects
+      leadership: >-
+        Leadership from nomination by peers and effective delegation to the
+        strengths of team members
+      listening: >-
+        Listening for understanding and problem solving based upon contextual
+        critical thought
+      product: >-
+        Product development and reinvention, leading to the creation of value at
+        an excellent ROI
+      project: >-
+        Project/Team leadership – taking responsibility and demonstrating
+        accountability
+    title: Demonstrated Competencies
+  education:
+    coma:
+      description: >-
+        Flash, Macromedia, HTML, CSS, Javascript. Computer animation and
+        contemporary web/graphic design.
+      school: Computer Master
+      title: Diploma in New Media Studies
+    title: Education
+    uvic:
+      description: >-
+        Graphics and Gaming Option - Math intensive, theory and concepts behind
+        modern programming practices and optimizing database structures.
+        Emphasis on OOP.
+      school: University of Victoria
+      title: Bachelors of Computer Science
+  experience:
+    mk2:
+      description: Consult on a variety of systems and projects.
+      title: Lead Developer
+    mk2solutions:
+      assessed: >-
+        Assessed information garnered during client meetings to create or refine
+        product specifications.
+      contributed: Contributed to the recruiting and selection process for new programmers
+      description: >-
+        Reported to the President and was responsible for all aspects of
+        programming (personal or corporate website development) for the company
+      participated: >-
+        Participate in client meetings and ensure understanding of their needs
+        and expectations.
+      provided: >-
+        Provided input into methods for increasing revenue generation or
+        improving effectiveness.
+      title: Lead Developer
+    neverblue:
+      company: Neverblue Media
+      converted: >-
+        Converted old projects to the new Symfony2.x framework, along with a
+        unique, one of a kind form generator used on Netdegree.com (which boasts
+        near real-time processing of databased forms with up to 3Million+ field
+        and element dependencies).
+      description: >-
+        Directly working with the main network to create appropriately designed
+        and functional landing pages for affiliates and publishers alike. My
+        main focus was on developing custom solutions for both Neverblue and its
+        affiliates using Symfony1.4 and Symfony2.x.
+      title: Senior Digital Content Developer
+    priologic:
+      cisco:
+        company: Cisco Systems
+        consulted: >-
+          Consulted by Project Managers on best practices, REST API
+          implementations and workflows that would best meet requirements,
+          reduce coding time and deliver content to the end-user as accurately
+          and efficiently as possible.
+        created: 'Created, Maintained and deployed fresh angular projects.'
+        reporting: >-
+          Reporting to Project Managers on various inter-departmental projects
+          and responsible for a variety of User Interface designs and
+          implementations.
+        successfully: Successfully navigated teams remotely located across the globe.
+        title: Intermediate Ui Developer
+        updated: Updated and extended several pre-existing projects.
+        updated_2: >-
+          Updated angular projects to utilize configuration switches such that
+          multiple platforms could use the same set of code/repositories yet
+          deliver different content and have differing look and feel.
+        worked: >-
+          Worked in collaborative teams, with a variety of UI technologies
+          including: backbone, angular, jQuery, and various JavaScript plugins
+          to perform specific tasks.
+      company: Priologic Software
+      developed: >-
+        Developed an Angular 4/5|React dynamic drag and drop form builder
+        designed with the ability for collaborative form
+        interactions/submissions across multiple platforms/locations.
+      first_voices:
+        assisted: >-
+          I assisted with beta development, updated process flows (React/Java),
+          managed custom alphabet sorting and translations (java), and in React
+          created/converted the sites custom dynamic localization service
+          (English, French, Spanish, …custom).
+        company: FirstVoices (c/o BC Government)
+        link: >-
+          https://firstvoices.com – FirstVoices is a suite of web-based tools
+          and services designed to support indigenous people engaged in language
+          archiving, language teaching and culture revitalization. Ground
+          breaking online Indigenous language archiving and teaching resource.
+        site: >-
+          The FirstVoices site is a combination of a React front-end with a
+          Nuxeo backend, supported by Java middle-ware, and an extensive/dynamic
+          intl system.
+        title: UI developer
+      internal:
+        title: Senior Ui Developer
+      title: Intermediate/Senior Ui/Fullstack Developer
+      veritas:
+        company: Veritas Technologies
+        integration: Integration of Drupal 7 into Apigee API management platform.
+        title: Senior Ui/Fullstack Developer
+        updated: Updated and extended several pre-existing projects.
+        worked: >-
+          Worked in and with large collaborative teams, with a variety of UI
+          technologies.
+    title: Work Experience
+    verb:
+      company: Verb Interactive
+      description: >-
+        My time at Verb interactive had a majority of my time and focus on a
+        single project from the initial requirements gathering to final release
+        for a Canadian Ferries Company. My project consisted of creating a
+        booking engine for passengers to fully create and/or amend their
+        bookings online. The primary data API is accessed through a 3rd party
+        SOAP API. Using Symfony5, we created middleware to simplify the SOAP API
+        and offer a much simpler, internal REST API for the booking front-end.
+        The front-end for this system utilizes the latest version of React using
+        Redux, written in Typescript. Payments for the system are handled
+        through the Moneris API and Moneris Hosted Payments. The project was
+        managed through agile sprints. Git was used using feature branches,
+        proper merge requests and code review. Multiple continuous integration
+        pipelines were set up and maintained to build and deploy to their
+        respective environment servers.
+      items:
+        created: Created a custom Full-stack solution for Atlantic Ferry bookings
+        direct: >-
+          Direct client interactions for project requirements, feedback and
+          ongoing support
+        facilitated: >-
+          Facilitated pre-launch and launch communications/actions between
+          client, developer team and DevOps
+        mentored: Mentored junior/intermediate developers
+        team_lead: Team lead for the Victoria office of 6 developers
+      title: Team Lead/Senior Developer
+  links:
+    title: Links
+  skills:
+    title: Skills
+    titles:
+      javascript_frameworks: Javascript Frameworks
+      languages: Languages
+      misc: Miscellaneous
+      php_frameworks: PHP Frameworks
+      software: Software
+      styling_frameworks: Styling Frameworks
+      version_control: Version Control
+  summary:
+    items:
+      '15': >-
+        15+ years of experience in web development with a long list of
+        successful projects
+      adept: >-
+        Adept in understanding/interpreting extremely complex information into
+        user friendly language
+      confident: >-
+        Confident and talented professional Web Developer with uncommonly strong
+        energy & aptitude
+      driven: Driven to stay current in knowledge and well ahead of consumer trends
+      hard_working: >-
+        Hard working & dedicated with intrinsic motivation coming from creating
+        solutions from problems
+      lives: >-
+        ‘Lives & breathes’ programming, taking pride in ability to overcome the
+        ‘impossible challenges’
+      skilled: >-
+        Skilled in object-oriented programming, building contemporary, clean,
+        scalable, readable and reusable code
+      spatially: Spatially aware & intuitive - building solutions ahead of the trends
+    title: Summary
+site:
+  description: Resume for Josh McCreight
+  title: Resume for Josh McCreight
+words:
+  ad_tracking_tracing: Ad Tracking/Tracing
+  affiliate_marketing: Affiliate Marketing
+  agile: Agile
+  agile_development: Agile development
+  algorithm_design: Algorithm Design
+  angular: Angular
+  angular4: Angular 4
+  apigee: Apigee
+  apis: Apis
+  atlassiansuite: Atlassian Suite
+  authorizenet: Authorize.Net
+  axios: Axios
+  back_end: Back-End
+  backbone: Backbone
+  body: Email Content
+  bookit: Bookit
+  bootstrap: Bootstrap 3|4
+  bootstrap_gt_4: Bootstrap ^4
+  british_columbia: British Columbia
+  cico: CI/CO
+  composer: Composer
+  confluence: Confluence
+  copyright: Copyright
+  css: CSS
+  current: Current
+  database_design: Database Design
+  datatables: Datatables.net
+  django: Django
+  docker: Docker
+  doctrine: Doctrine
+  drupal: Drupal 7+
+  drupal7: Drupal 7
+  drupal_gt_8: Drupal ^8
+  eclipseides: Exclipse* IDE's
+  email: Email
+  email_address: Email Address
+  extjs: ExtJs
+  from_email: From Email
+  front_end: Front-End
+  full_stack: Full-Stack
+  git: Git
+  github: Github
+  github_self: GitHub (This site)
+  gitlab: GitLab
+  grunt: Grunt
+  gulp: Gulp
+  highcharts: Highcharts
+  html: HTML
+  jasmine: Jasmine
+  java: Java
+  javascript: Javascript
+  jenkins: Jenkins
+  jira: Jira
+  josh: Josh
+  josh_mccreight: Josh McCreight
+  jqplot: jQPlot
+  jquery: jQuery
+  js: JS
+  json: JSON
+  keywords: Keywords
+  less: Less
+  lessscss: Less/Scss
+  linkedin: LinkedIn
+  linux: Linux
+  linux_centos: CentOS
+  linux_ubuntu: Ubuntu
+  materialdesign: Material Design
+  mentorship: Mentorship
+  mocha: Mocha
+  mocha_jasmine: Mocha/Jasmine
+  mochajasmine: Mocha/Jasmine
+  moneris: Moneris
+  msoffice: MS Office
+  mustache: Mustache
+  mysql: MySQL
+  netbeans: Netbeans
+  netdegree: Netdegree
+  nodejs: NodeJS
+  npm: NPM
+  nuxeo: Nuxeo
+  of: of
+  paypal: Paypal
+  pgadmin: PgAdmin
+  phone: Phone
+  photoshop: Photoshop
+  php: PHP
+  phpmyadmin: PHPMyAdmin
+  phpstorm: PHPStorm
+  phpunit: PHPUnit
+  pipelines: Pipelines
+  postgresql: PostgreSQL
+  postman: Postman
+  rally: Rally
+  react: React (ts|js)
+  react_redux: React Redux
+  react_sagas: React Sagas
+  reacttsjs: React (ts|js)
+  rest: REST
+  rest_internal: Internal REST
+  scss: Scss
+  senior_developer: Senior Developer
+  server_administration: Server Administration
+  soap: SOAP
+  svn: SVN
+  symfony: Symfony (4/5+)
+  symfony_1_4: Symfony 1.4
+  symfony_gt_2: Symfony ^2
+  symfony_gt_5: Symfony ^5
+  team_lead: Team Lead
+  title: Title
+  to: to
+  twig: Twig
+  typescript: Typescript
+  underscore: Underscore
+  unit_tests: Unit Tests
+  victoria: Victoria
+  victoria_bc: Victoria BC
+  vmware: VMWare
+  webpack: Webpack
+  wordpress: Wordpress
+  xdebug: XDebug
+  yarn: Yarn
+  zendframework: Zend Framework
+

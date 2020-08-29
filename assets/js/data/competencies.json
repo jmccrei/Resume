@@ -1,0 +1,52 @@
+{
+  "location": "content",
+  "type": "list",
+  "text": "Demonstrated Competencies",
+  "order": {
+    "full": 1,
+    "back": 0,
+    "front": 1
+  },
+  "items": [
+    {
+      "id": "section.competencies.items.demonstrated",
+      "defaultMessage": "Demonstrated proficiencies in developing/designing and working with proper REST APIs",
+      "description": "List item"
+    },
+    {
+      "id": "section.competencies.items.developing",
+      "defaultMessage": "Developing and sustaining strong working relationships – both client and staff",
+      "description": "List item"
+    },
+    {
+      "id": "section.competencies.items.leadership",
+      "defaultMessage": "Leadership from nomination by peers and effective delegation to the strengths of team members",
+      "description": "List item"
+    },
+    {
+      "id": "section.competencies.items.listening",
+      "defaultMessage": "Listening for understanding and problem solving based upon contextual critical thought",
+      "description": "List item"
+    },
+    {
+      "id": "section.competencies.items.project",
+      "defaultMessage": "Project/Team leadership – taking responsibility and demonstrating accountability",
+      "description": "List item"
+    },
+    {
+      "id": "section.competencies.items.change",
+      "defaultMessage": "Change and thought leadership leading to innovation and evolution",
+      "description": "List item"
+    },
+    {
+      "id": "section.competencies.items.product",
+      "defaultMessage": "Product development and reinvention, leading to the creation of value at an excellent ROI",
+      "description": "List item"
+    },
+    {
+      "id": "section.competencies.items.effectively",
+      "defaultMessage": "Effectively demonstrated proper use of coding standards and frequently consulted on best practices and methods for upcoming tasks and/or projects",
+      "description": "List item"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+@import "variables";
+@import "toolbar";
+@import "~bootstrap/scss/mixins/breakpoints";
+
+header.site-header {
+  margin: 0;
+  padding: 0;
+
+  .left, .right {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .left {
+    background-color: $left-background-color;
+    order: 1;
+  }
+
+  .right {
+    background-color: $right-background-color;
+    order: 3;
+    text-align: center;
+
+    @include media-breakpoint-up('md') {
+      order: 2;
+    }
+  }
+
+  .toolbar-container {
+    order: 2;
+
+    @include media-breakpoint-up('md') {
+      order: 3;
+    }
+  }
+
+  .translation-warning {
+    order: 3;
+    font-size: 75%;
+    background-color: #f7a480;
+    padding: 0.5rem;
+  }
+}

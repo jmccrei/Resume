@@ -1,0 +1,17 @@
+.links-container {
+  position: relative;
+
+  .list-group {
+    position: relative;
+
+    .list-group-item {
+      padding: 0.5rem;
+      background: transparent;
+
+      a {
+        text-decoration: none;
+        display: block;
+      }
+    }
+  }
+}

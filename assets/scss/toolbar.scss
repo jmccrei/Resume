@@ -1,0 +1,17 @@
+@import "variables";
+
+.navbar.toolbar {
+  margin: 0;
+  padding: 0;
+  background-color: darken($right-background-color, 15%);
+  font-size: 75%;
+
+  .nav, .navbar-nav {
+    padding: 0.05rem 0.5rem;
+
+    .active {
+      text-underline: #222222;
+      text-decoration: underline;
+    }
+  }
+}

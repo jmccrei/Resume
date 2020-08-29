@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html {% block html_tags %}{% endblock html_tags %}>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="keywords" content="{% block keywords %}{% endblock keywords %}"/>
+    <title>{% block title %}{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+    {% block head_scripts %}
+    {% endblock head_scripts %}
+</head>
+<body {% block body_tags %}{% endblock body_tags %}>
+{% block body %}{% endblock %}
+{% block javascripts %}{% endblock %}
+</body>
+</html>

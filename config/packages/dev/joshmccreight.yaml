@@ -1,0 +1,4 @@
+parameters:
+  jm.name: Josh McCreight
+  jm.email: josh@joshmccreight.ca
+  jm.email_title_prefix: 'Site contact: '

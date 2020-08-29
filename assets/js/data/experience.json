@@ -1,0 +1,902 @@
+{
+  "location": "content",
+  "type": "experience",
+  "text": "Work Experience",
+  "order": {
+    "full": 3,
+    "back": 3,
+    "front": 3
+  },
+  "items": [
+    {
+      "display": "all",
+      "order": {
+        "full": 0,
+        "front": 0,
+        "back": 0
+      },
+      "from": "10/2018",
+      "to": "05/2020",
+      "title": {
+        "id": "section.experience.verb.title",
+        "defaultMessage": "Team Lead/Senior Developer",
+        "description": "Experience title"
+      },
+      "company": {
+        "id": "section.experience.verb.company",
+        "defaultMessage": "Verb Interactive",
+        "description": "Company name"
+      },
+      "location": {
+        "id": "location.victoria",
+        "defaultMessage": "Victoria BC",
+        "description": "Location"
+      },
+      "list": [
+        {
+          "id": "section.experience.verb.items.team_lead",
+          "defaultMessage": "Team lead for the Victoria office of 6 developers",
+          "description": "Experience item"
+        },
+        {
+          "id": "section.experience.verb.items.mentored",
+          "defaultMessage": "Mentored junior/intermediate developers",
+          "description": "Experience item"
+        },
+        {
+          "id": "section.experience.verb.items.direct",
+          "defaultMessage": "Direct client interactions for project requirements, feedback and ongoing support",
+          "description": "Experience item"
+        },
+        {
+          "id": "section.experience.verb.items.facilitated",
+          "defaultMessage": "Facilitated pre-launch and launch communications/actions between client, developer team and DevOps",
+          "description": "Experience item"
+        },
+        {
+          "id": "section.experience.verb.items.created",
+          "defaultMessage": "Created a custom Full-stack solution for Atlantic Ferry bookings",
+          "description": "Experience item"
+        }
+      ],
+      "description": {
+        "id": "section.experience.verb.description",
+        "defaultMessage": "My time at Verb interactive had a majority of my time and focus on a single project from the initial requirements gathering to final release for a Canadian Ferries Company. My project consisted of creating a booking engine for passengers to fully create and/or amend their bookings online. The primary data API is accessed through a 3rd party SOAP API. Using Symfony5, we created middleware to simplify the SOAP API and offer a much simpler, internal REST API for the booking front-end. The front-end for this system utilizes the latest version of React using Redux, written in Typescript. Payments for the system are handled through the Moneris API and Moneris Hosted Payments. The project was managed through agile sprints. Git was used using feature branches, proper merge requests and code review. Multiple continuous integration pipelines were set up and maintained to build and deploy to their respective environment servers.",
+        "description": "Experience description"
+      },
+      "keywords": [
+        {
+          "id": "words.phpstorm",
+          "defaultMessage": "PHPStorm",
+          "description": "word"
+        },
+        {
+          "id": "words.react",
+          "defaultMessage": "React",
+          "description": "word"
+        },
+        {
+          "id": "words.react_redux",
+          "defaultMessage": "React Redux",
+          "description": "word"
+        },
+        {
+          "id": "words.react_sagas",
+          "defaultMessage": "React Sagas",
+          "description": "word"
+        },
+        {
+          "id": "words.axios",
+          "defaultMessage": "Axios",
+          "description": "word"
+        },
+        {
+          "id": "words.jquery",
+          "defaultMessage": "jQuery",
+          "description": "word"
+        },
+        {
+          "id": "words.wordpress",
+          "defaultMessage": "Wordpress",
+          "description": "word"
+        },
+        {
+          "id": "words.drupal_gt_8",
+          "defaultMessage": "Drupal ^8",
+          "description": "word"
+        },
+        {
+          "id": "words.symfony_gt_5",
+          "defaultMessage": "Symfony ^5",
+          "description": "word"
+        },
+        {
+          "id": "words.bootstrap_gt_4",
+          "defaultMessage": "Bootstrap ^4",
+          "description": "word"
+        },
+        {
+          "id": "words.webpack",
+          "defaultMessage": "Webpack",
+          "description": "word"
+        },
+        {
+          "id": "words.yarn",
+          "defaultMessage": "Yarn",
+          "description": "word"
+        },
+        {
+          "id": "words.gitlab",
+          "defaultMessage": "Gitlab",
+          "description": "word"
+        },
+        {
+          "id": "words.pipelines",
+          "defaultMessage": "Pipelines",
+          "description": "word"
+        },
+        {
+          "id": "words.cico",
+          "defaultMessage": "CI/CO",
+          "description": "word"
+        },
+        {
+          "id": "words.jira",
+          "defaultMessage": "Jira",
+          "description": "word"
+        },
+        {
+          "id": "words.confluence",
+          "defaultMessage": "Confluence",
+          "description": "word"
+        },
+        {
+          "id": "words.rest",
+          "defaultMessage": "REST",
+          "description": "word"
+        },
+        {
+          "id": "words.soap",
+          "defaultMessage": "SOAP",
+          "description": "word"
+        },
+        {
+          "id": "words.linux",
+          "defaultMessage": "Linux",
+          "description": "word"
+        },
+        {
+          "id": "words.linux_ubuntu",
+          "defaultMessage": "Ubuntu",
+          "description": "word"
+        },
+        {
+          "id": "words.linux_centos",
+          "defaultMessage": "CentOS",
+          "description": "word"
+        },
+        {
+          "id": "words.vmware",
+          "defaultMessage": "VMWare",
+          "description": "word"
+        },
+        {
+          "id": "words.server_administration",
+          "defaultMessage": "Server administration",
+          "description": "word"
+        },
+        {
+          "id": "words.team_lead",
+          "defaultMessage": "Team lead",
+          "description": "word"
+        },
+        {
+          "id": "words.senior_developer",
+          "defaultMessage": "Senior Developer",
+          "description": "word"
+        }
+      ],
+      "apis": [
+        "Bookit 2017R3-2019R3",
+        "Moneris"
+      ]
+    },
+    {
+      "display": "all",
+      "from": "02/2014",
+      "to": "05/2018",
+      "title": {
+        "id": "section.experience.priologic.title",
+        "defaultMessage": "Intermediate/Senior Ui/Fullstack Developer",
+        "description": "title"
+      },
+      "company": {
+        "id": "section.experience.priologic.company",
+        "defaultMessage": "Priologic Software",
+        "description": "company"
+      },
+      "location": {
+        "id": "location.victoria",
+        "defaultMessage": "Victoria BC",
+        "description": "location"
+      },
+      "list": [],
+      "description": null,
+      "keywords": [],
+      "apis": [],
+      "children": [
+        {
+          "display": "all",
+          "from": "08/2017",
+          "to": "05/2018",
+          "title": {
+            "id": "section.experience.priologic.internal.title",
+            "defaultMessage": "Senior Ui Developer",
+            "description": "title"
+          },
+          "company": {
+            "id": "section.experience.priologic.company",
+            "defaultMessage": "Priologic Software",
+            "description": "title"
+          },
+          "location": {
+            "id": "location.victoria",
+            "defaultMessage": "Victoria BC",
+            "description": "location"
+          },
+          "description": null,
+          "list": [
+            {
+              "id": "words.agile_development",
+              "defaultMessage": "Agile development",
+              "description": "word"
+            },
+            {
+              "id": "section.experience.priologic.developed",
+              "defaultMessage": "Developed an Angular4/5|React dynamic drag and drop form builder designed with the ability for collaborative form interactions/submissions across multiple platforms/locations.",
+              "description": "List item"
+            }
+          ],
+          "keywords": [
+            {
+              "id": "words.phpstorm",
+              "defaultMessage": "PHPStorm",
+              "description": "word"
+            },
+            {
+              "id": "words.react",
+              "defaultMessage": "React",
+              "description": "word"
+            },
+            {
+              "id": "words.angular",
+              "defaultMessage": "Angular 4.1.3/5.0.0",
+              "description": "word"
+            },
+            {
+              "id": "words.webpack",
+              "defaultMessage": "Webpack 3.5.3",
+              "description": "word"
+            },
+            {
+              "id": "words.nodejs",
+              "defaultMessage": "NodeJs 8.2.1",
+              "description": "word"
+            },
+            {
+              "id": "words.npm",
+              "defaultMessage": "NPM 5.3.0",
+              "description": "word"
+            },
+            {
+              "id": "words.jquery",
+              "defaultMessage": "jQuery 3.x",
+              "description": "word"
+            },
+            {
+              "id": "words.bootstrap",
+              "defaultMessage": "Bootstrap",
+              "description": "word"
+            },
+            {
+              "id": "words.rest",
+              "defaultMessage": "REST",
+              "description": "word"
+            }
+          ],
+          "apis": [
+            {
+              "id": "words.rest_internal",
+              "defaultMessage": "Internal REST",
+              "description": "word"
+            }
+          ]
+        },
+        {
+          "display": "all",
+          "from": "12/2017",
+          "to": "03/2019",
+          "title": {
+            "id": "section.experience.priologic.first_voices.title",
+            "defaultMessage": "",
+            "description": "title"
+          },
+          "company": {
+            "id": "section.experience.priologic.first_voices.company",
+            "defaultMessage": "FirstVoices (c/o BC Government)",
+            "description": "title"
+          },
+          "location": {
+            "id": "location.victoria",
+            "defaultMessage": "Victoria BC",
+            "description": "location"
+          },
+          "description": null,
+          "list": [
+            {
+              "id": "section.experience.priologic.first_voices.link",
+              "defaultMessage": "https://firstvoices.com – FirstVoices is a suite of web-based tools and services designed to support indigenous people engaged in language archiving, language teaching and culture revitalization. Ground breaking online Indigenous language archiving and teaching resource.",
+              "description": "list item"
+            },
+            {
+              "id": "section.experience.priologic.first_voices.site",
+              "defaultMessage": "The FirstVoices site is a combination of a React front-end with a Nuxeo backend, supported by Java middle-ware, and an extensive/dynamic intl system.",
+              "description": "list item"
+            },
+            {
+              "id": "section.experience.priologic.first_voices.assisted",
+              "defaultMessage": "I assisted with beta development, updated process flows (React/Java), managed custom alphabet sorting and translations (java), and in React created/converted the sites custom dynamic localization service (English, French, Spanish, …custom).",
+              "description": "list item"
+            }
+          ],
+          "keywords": [
+            {
+              "id": "words.phpstorm",
+              "defaultMessage": "PHPStorm",
+              "description": "word"
+            },
+            {
+              "id": "words.netbeans",
+              "defaultMessage": "Netbeans",
+              "description": "word"
+            },
+            {
+              "id": "words.php",
+              "defaultMessage": "PHP",
+              "description": "word"
+            },
+            {
+              "id": "words.java",
+              "defaultMessage": "Java",
+              "description": "word"
+            },
+            {
+              "id": "words.nuxeo",
+              "defaultMessage": "Nuxeo",
+              "description": "word"
+            },
+            {
+              "id": "words.react",
+              "defaultMessage": "React",
+              "description": "word"
+            },
+            {
+              "id": "words.rest",
+              "defaultMessage": "REST",
+              "description": "word"
+            },
+            {
+              "id": "words.jquery",
+              "defaultMessage": "jQuery",
+              "description": "word"
+            },
+            {
+              "id": "words.git",
+              "defaultMessage": "Git",
+              "description": "word"
+            },
+            "C",
+            "C++"
+          ],
+          "apis": []
+        },
+        {
+          "display": "all",
+          "from": "09/2016",
+          "to": "08/2017",
+          "title": {
+            "id": "section.experience.priologic.veritas.title",
+            "defaultMessage": "Senior Ui/Fullstack Developer",
+            "description": "Job title"
+          },
+          "company": {
+            "id": "section.experience.priologic.veritas.company",
+            "defaultMessage": "Veritas Technologies",
+            "description": "Company"
+          },
+          "location": {
+            "id": "location.victoria",
+            "defaultMessage": "Victoria BC",
+            "description": "location"
+          },
+          "description": null,
+          "list": [
+            {
+              "id": "section.experience.priologic.veritas.worked",
+              "defaultMessage": "Worked in and with large collaborative teams, with a variety of UI technologies.",
+              "description": "List item"
+            },
+            {
+              "id": "section.experience.priologic.veritas.updated",
+              "defaultMessage": "Updated and extended several pre-existing projects.",
+              "description": "List item"
+            },
+            {
+              "id": "section.experience.priologic.veritas.integration",
+              "defaultMessage": "Integration of Drupal7 into Apigee API management platform.",
+              "description": "List item"
+            }
+          ],
+          "keywords": [
+            {
+              "id": "words.phpstorm",
+              "defaultMessage": "PHPStorm",
+              "description": "word"
+            },
+            {
+              "id": "words.php",
+              "defaultMessage": "PHP",
+              "description": "word"
+            },
+            {
+              "id": "words.java",
+              "defaultMessage": "Java",
+              "description": "word"
+            },
+            {
+              "id": "words.mysql",
+              "defaultMessage": "MySQL",
+              "description": "word"
+            },
+            {
+              "id": "words.postgresql",
+              "defaultMessage": "PostgreSQL",
+              "description": "word"
+            },
+            {
+              "id": "words.drupal7",
+              "defaultMessage": "Drupal 7",
+              "description": "word"
+            },
+            {
+              "id": "words.jira",
+              "defaultMessage": "Jira",
+              "description": "word"
+            },
+            {
+              "id": "words.rally",
+              "defaultMessage": "Rally",
+              "description": "word"
+            },
+            {
+              "id": "words.jquery",
+              "defaultMessage": "jQuery",
+              "description": "word"
+            },
+            {
+              "id": "words.angular4",
+              "defaultMessage": "Angular 4",
+              "description": "word"
+            }
+          ],
+          "apis": [
+            {
+              "id": "words.rest_internal",
+              "defaultMessage": "Internal REST",
+              "description": "word"
+            },
+            {
+              "id": "words.apigee",
+              "defaultMessage": "Apigee",
+              "description": "word"
+            }
+          ]
+        },
+        {
+          "display": "all",
+          "from": "01/2014",
+          "to": "09/2016",
+          "title": {
+            "id": "section.experience.priologic.cisco.title",
+            "defaultMessage": "Intermediate Ui Developer",
+            "description": "title"
+          },
+          "company": {
+            "id": "section.experience.priologic.cisco.company",
+            "defaultMessage": "Cisco Systems",
+            "description": "company"
+          },
+          "description": null,
+          "list": [
+            {
+              "id": "section.experience.priologic.cisco.successfully",
+              "defaultMessage": "Successfully navigated teams remotely located across the globe.",
+              "description": "List item"
+            },
+            {
+              "id": "section.experience.priologic.cisco.reporting",
+              "defaultMessage": "Reporting to Project Managers on various inter-departmental projects and responsible for a variety of User Interface designs and implementations.",
+              "description": "List item"
+            },
+            {
+              "id": "section.experience.priologic.cisco.worked",
+              "defaultMessage": "Worked in collaborative teams, with a variety of UI technologies including: backbone, angular, jQuery, and various JavaScript plugins to perform specific tasks.",
+              "description": "List item"
+            },
+            {
+              "id": "section.experience.priologic.cisco.updated",
+              "defaultMessage": "Updated and extended several pre-existing projects.",
+              "description": "List item"
+            },
+            {
+              "id": "section.experience.priologic.cisco.created",
+              "defaultMessage": "Created, Maintained and deployed fresh angular projects.",
+              "description": "List item"
+            },
+            {
+              "id": "section.experience.priologic.cisco.updated_2",
+              "defaultMessage": "Updated angular projects to utilize configuration switches such that multiple platforms could use the same set of code/repositories yet deliver different content and have differing look and feel.",
+              "description": "List item"
+            },
+            {
+              "id": "section.experience.priologic.cisco.consulted",
+              "defaultMessage": "Consulted by Project Managers on best practices, REST API implementations and workflows that would best meet requirements, reduce coding time and deliver content to the end-user as accurately and efficiently as possible.",
+              "description": "List item"
+            }
+          ],
+          "keywords": [
+            {
+              "id": "words.phpstorm",
+              "defaultMessage": "PHPStorm",
+              "description": "word"
+            },
+            {
+              "id": "words.php",
+              "defaultMessage": "PHP",
+              "description": "word"
+            },
+            {
+              "id": "words.javascript",
+              "defaultMessage": "Javascript",
+              "description": "word"
+            },
+            {
+              "id": "words.jquery",
+              "defaultMessage": "jQuery",
+              "description": "word"
+            },
+            {
+              "id": "words.backbone",
+              "defaultMessage": "Backbone",
+              "description": "word"
+            },
+            {
+              "id": "words.jira",
+              "defaultMessage": "Jira",
+              "description": "word"
+            },
+            {
+              "id": "words.confluence",
+              "defaultMessage": "Confluence",
+              "description": "word"
+            },
+            {
+              "id": "words.rally",
+              "defaultMessage": "Rally",
+              "description": "word"
+            },
+            {
+              "id": "words.gitlab",
+              "defaultMessage": "Gitlab",
+              "description": "word"
+            },
+            {
+              "id": "words.underscore",
+              "defaultMessage": "Underscore",
+              "description": "word"
+            },
+            {
+              "id": "words.gulp",
+              "defaultMessage": "Gulp",
+              "description": "word"
+            },
+            {
+              "id": "words.grunt",
+              "defaultMessage": "Grunt",
+              "description": "word"
+            },
+            {
+              "id": "words.rest",
+              "defaultMessage": "REST",
+              "description": "word"
+            },
+            {
+              "id": "words.soap",
+              "defaultMessage": "SOAP",
+              "description": "word"
+            },
+            {
+              "id": "words.django",
+              "defaultMessage": "Django",
+              "description": "word"
+            },
+            {
+              "id": "words.angular",
+              "defaultMessage": "Angular",
+              "description": "word"
+            },
+            {
+              "id": "words.postman",
+              "defaultMessage": "Postman",
+              "description": "word"
+            },
+            {
+              "id": "words.unit_tests",
+              "defaultMessage": "Unit tests",
+              "description": "word"
+            },
+            {
+              "id": "words.mocha_jasmine",
+              "defaultMessage": "Mocha/Jasmine",
+              "description": "word"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "display": "all",
+      "from": "01/2011",
+      "to": "01/2014",
+      "title": {
+        "id": "section.experience.neverblue.title",
+        "defaultMessage": "Senior Digital Content Developer",
+        "description": "title"
+      },
+      "company": {
+        "id": "section.experience.neverblue.company",
+        "defaultMessage": "Neverblue Media",
+        "description": "company"
+      },
+      "location": {
+        "id": "location.victoria",
+        "defaultMessage": "Victoria BC",
+        "description": "location"
+      },
+      "list": [
+        {
+          "id": "section.experience.neverblue.converted",
+          "defaultMessage": "Converted old projects to the new Symfony2.x framework, along with a unique, one of a kind form generator used on Netdegree.com (which boasts near real-time processing of databased forms with up to 3Million+ field and element dependencies).",
+          "description": "List item"
+        }
+      ],
+      "description": {
+        "id": "section.experience.neverblue.description",
+        "defaultMessage": "Directly working with the main network to create appropriately designed and functional landing pages for affiliates and publishers alike. My main focus was on developing custom solutions for both Neverblue and its affiliates using Symfony1.4 and Symfony2.x.",
+        "description": "description"
+      },
+      "keywords": [
+        {
+          "id": "words.phpstorm",
+          "defaultMessage": "PHPStorm",
+          "description": "word"
+        },
+        {
+          "id": "words.php",
+          "defaultMessage": "PHP",
+          "description": "word"
+        },
+        {
+          "id": "words.mysql",
+          "defaultMessage": "MySQL",
+          "description": "word"
+        },
+        {
+          "id": "words.postgresql",
+          "defaultMessage": "Postgresql",
+          "description": "word"
+        },
+        {
+          "id": "words.css",
+          "defaultMessage": "CSS",
+          "description": "word"
+        },
+        {
+          "id": "words.html",
+          "defaultMessage": "HTML",
+          "description": "word"
+        },
+        {
+          "id": "words.javascript",
+          "defaultMessage": "Javascript",
+          "description": "word"
+        },
+        {
+          "id": "words.jquery",
+          "defaultMessage": "jQuery",
+          "description": "word"
+        },
+        {
+          "id": "words.twig",
+          "defaultMessage": "Twig",
+          "description": "word"
+        },
+        {
+          "id": "words.symfony_1_4",
+          "defaultMessage": "Symfony 1.4",
+          "description": "word"
+        },
+        {
+          "id": "words.symfony_gt_2",
+          "defaultMessage": "Symfony ^2.0",
+          "description": "word"
+        },
+        {
+          "id": "words.netdegree",
+          "defaultMessage": "NetDegree",
+          "description": "word"
+        },
+        {
+          "id": "words.affiliate_marketing",
+          "defaultMessage": "Affiliate Marketing",
+          "description": "word"
+        }
+      ]
+    },
+    {
+      "display": "all",
+      "from": "01/2010",
+      "to": {
+        "id": "words.current",
+        "defaultMessage": "current",
+        "description": "word"
+      },
+      "title": {
+        "id": "section.experience.mk2.title",
+        "defaultMessage": "Consultant",
+        "description": "title"
+      },
+      "company": "MK2 Business Solutions",
+      "location": {
+        "id": "location.victoria",
+        "defaultMessage": "Victoria BC",
+        "description": "location"
+      },
+      "description": {
+        "id": "section.experience.mk2.description",
+        "defaultMessage": "Consult on a variety of systems and projects.",
+        "description": "description"
+      },
+      "keywords": [
+        {
+          "id": "words.phpstorm",
+          "defaultMessage": "PHPStorm",
+          "description": "word"
+        },
+        {
+          "id": "words.php",
+          "defaultMessage": "PHP",
+          "description": "word"
+        },
+        {
+          "id": "words.javascript",
+          "defaultMessage": "Javascript",
+          "description": "word"
+        },
+        {
+          "id": "words.jquery",
+          "defaultMessage": "jQuery",
+          "description": "word"
+        },
+        {
+          "id": "words.symfony_gt_5",
+          "defaultMessage": "Symfony ^5.0",
+          "description": "word"
+        },
+        {
+          "id": "words.mysql",
+          "defaultMessage": "MySQL",
+          "description": "word"
+        },
+        {
+          "id": "words.affiliate_marketing",
+          "defaultMessage": "Affiliate Marketing",
+          "description": "word"
+        },
+        {
+          "id": "words.ad_tracking_tracing",
+          "defaultMessage": "Ad tracking/tracing",
+          "description": "word"
+        },
+        {
+          "id": "words.algorithm_design",
+          "defaultMessage": "Algorithm design",
+          "description": "word"
+        },
+        {
+          "id": "words.database_design",
+          "defaultMessage": "Database design",
+          "description": "word"
+        },
+        {
+          "id": "words.doctrine",
+          "defaultMessage": "Doctrine",
+          "description": "word"
+        },
+        {
+          "id": "words.react",
+          "defaultMessage": "React",
+          "description": "word"
+        },
+        {
+          "id": "words.angular",
+          "defaultMessage": "Angular",
+          "description": "word"
+        },
+        {
+          "id": "phrases.payment_management_paypal_authnet",
+          "defaultMessage": "Payment Management Systems (Paypal, Authorize.net)",
+          "description": "word"
+        },
+        {
+          "id": "words.mentorship",
+          "defaultMessage": "Mentorship",
+          "description": "word"
+        }
+      ]
+    },
+    {
+      "display": "all",
+      "from": "01/2005",
+      "to": "12/2010",
+      "title": {
+        "id": "section.experience.mk2solutions.title",
+        "defaultMessage": "Lead Developer",
+        "description": "title"
+      },
+      "company": "MK2 Business Solutions",
+      "location": {
+        "id": "location.victoria",
+        "defaultMessage": "Victoria BC",
+        "description": "location"
+      },
+      "description": {
+        "id": "section.experience.mk2solutions.description",
+        "defaultMessage": "Reported to the President and was responsible for all aspects of programming (personal or corporate website development) for the company",
+        "description": "description"
+      },
+      "list": [
+        {
+          "id": "section.experience.mk2solutions.contributed",
+          "defaultMessage": "Contributed to the recruiting and selection process for new programmers.",
+          "description": "list item"
+        },
+        {
+          "id": "section.experience.mk2solutions.participated",
+          "defaultMessage": "Participated in client meetings and ensured understanding of their needs and expectations.",
+          "description": "list item"
+        },
+        {
+          "id": "section.experience.mk2solutions.assessed",
+          "defaultMessage": "Assessed information garnered during client meetings to create or refine product specifications.",
+          "description": "list item"
+        },
+        {
+          "id": "section.experience.mk2solutions.provided",
+          "defaultMessage": "Provided input into methods for increasing revenue generation or improving effectiveness.",
+          "description": "list item"
+        }
+      ]
+    }
+  ]
+}

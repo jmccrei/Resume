@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ meta.title }}{% endblock %}
+
+{% block html_tags %}lang="{{ app.request.locale }}" data-stack="full"{% endblock %}
+
+{% block body_tags %}{% endblock body_tags %}
+
+{% block keywords %}{{ meta.keywords }}{% endblock keywords %}
+
+{% block body %}
+    <div id="root">
+    </div>
+{% endblock %}
+
+{% block stylesheets %}
+    {{ encore_entry_link_tags('app') }}
+{% endblock %}
+
+{% block head_scripts %}
+    <script src="{{ asset('bundles/fosjsrouting/js/router.min.js') }}"></script>
+    <script src="{{ path('fos_js_routing_js', { callback: 'fos.Router.setData' }) }}"></script>
+{% endblock head_scripts %}
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+{% endblock %}

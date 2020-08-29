@@ -1,0 +1,32 @@
+@import "variables";
+
+.experience-container {
+  position: relative;
+
+  .experience {
+    position: relative;
+    margin: 1rem -2rem 1rem -0.5rem;
+    padding: 0.5rem 2.25rem 0.5rem 0.5rem;
+
+    &:nth-child(even) {
+      background-color: lighten($right-background-color-hexa, 10%);
+    }
+
+    .experience {
+      position: relative;
+      margin-left: 1rem;
+      padding-right: 2.25rem;
+
+      &:nth-child(even) {
+        background: $right-background-color;
+      }
+    }
+  }
+
+  .experience-keywords,
+  .experience-apis {
+    b {
+      font-size: 1rem;
+    }
+  }
+}

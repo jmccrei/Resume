@@ -1,0 +1,27 @@
+.skills-container {
+  .list {
+    font-size: 80%;
+  }
+
+  .section {
+    margin-top: 2rem;
+
+    label {
+      font-size: 80%;
+    }
+
+    .progress {
+      max-height: 12px;
+      font-size: 50%;
+      border-radius: 0.25rem;
+      border: 1px solid #333333;
+
+      .progress-bar {
+        border-radius: 0.25rem;
+        border: 1px solid #CCCCCC;
+      }
+    }
+  }
+
+  @import "skills_config";
+}

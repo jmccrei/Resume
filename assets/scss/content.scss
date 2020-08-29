@@ -1,0 +1,26 @@
+@import "variables";
+
+.content-container {
+  position: relative;
+  margin: 0;
+  padding: 0;
+
+  @import "sections";
+
+  .list-group {
+    .list-group-item {
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid darken($site-background-color, 5%);
+      display: list-item !important;
+      list-style-type: disc;
+      padding: 0.25rem;
+      font-size: 90%;
+      margin-left: 2rem;
+
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+}

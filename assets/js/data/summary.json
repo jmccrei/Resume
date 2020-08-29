@@ -1,0 +1,52 @@
+{
+  "location": "content",
+  "type": "list",
+  "text": "Summary",
+  "order": {
+    "full": 0,
+    "back": 1,
+    "front": 0
+  },
+  "items": [
+    {
+      "id": "section.summary.items.confident",
+      "defaultMessage": "Confident and talented professional Web Developer with uncommonly strong energy & aptitude",
+      "description": "List item"
+    },
+    {
+      "id": "section.summary.items.15",
+      "defaultMessage": "15+ years of experience in web development with a long list of successful projects",
+      "description": "List item"
+    },
+    {
+      "id": "section.summary.items.lives",
+      "defaultMessage": "‘Lives & breathes’ programming, taking pride in ability to overcome the ‘impossible challenges’",
+      "description": "List item"
+    },
+    {
+      "id": "section.summary.items.skilled",
+      "defaultMessage": "Skilled in object-oriented programming, building contemporary, clean, scalable, readable and reusable code",
+      "description": "List item"
+    },
+    {
+      "id": "section.summary.items.adept",
+      "defaultMessage": "Adept in understanding/interpreting extremely complex information into user friendly language",
+      "description": "List item"
+    },
+    {
+      "id": "section.summary.items.spatially",
+      "defaultMessage": "Spatially aware & intuitive - building solutions ahead of the trends",
+      "description": "List item"
+    },
+    {
+      "id": "section.summary.items.hard_working",
+      "defaultMessage": "Hard working & dedicated with intrinsic motivation coming from creating solutions from problems",
+      "description": "List item"
+    },
+    {
+      "id": "section.summary.items.driven",
+      "defaultMessage": "Driven to stay current in knowledge and well ahead of consumer trends",
+      "description": "List item"
+    }
+  ]
+}

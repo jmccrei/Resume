@@ -1,0 +1,373 @@
+contact:
+  cancel: Annuler
+  close: Fermer
+  submit: Soumettre
+  submitted: >-
+    Merci de m'avoir envoyé un email. Veuillez m'accorder 24 à 48 heures pour
+    examiner et répondre.
+  title: Contactez moi
+help:
+  body: Sur quoi souhaitez-vous me contacter? (25 caractères ou plus)
+  from_email: Votre adresse e-mail pour que je puisse vous recontacter.
+  title: Titre de l'e-mail (10 caractères ou plus)
+links:
+  github_db_roles_access: Symfony Bundle - Rôles des bases de données | Accès (PROCHAINEMENT)
+  github_db_roles_access_description: >-
+    Plutôt que de déclarer statiquement tous les rôles et accès via config, ce
+    bundle autorisera le vidage des rôles et des accès à la base de données.
+    Utilise les abonnés pour mettre à jour, vérifier, valider et synchroniser
+    les rôles de configuration et accéder à ceux saisis dans la base de données.
+  github_reverse_discriminator: Bundle Symfony - Discriminateur d'entité inversée (À VENIR)
+  github_reverse_discriminator_description: >-
+    Au lieu de déclarer @ORM\DiscriminatorMap et de déclarer tous les enfants
+    possibles, ce bundle donnera la possibilité de placer @DiscriminatorChild
+    sur l'entité enfant à la place.
+location:
+  victoria: 'Victoria, Colombie-Britannique'
+phrases:
+  payment_management_paypal_authnet: Gestion des paiements (Paypal/Authorize.Net)
+  translations_by_google: Toutes les traductions non anglaises fournies par google translate
+placeholder:
+  body: Sur quoi souhaitez-vous me contacter?
+  from_email: email@domain.com
+  title: Demande de joshmccreight.ca
+section:
+  competencies:
+    items:
+      change: Changement et leadership éclairé menant à l'innovation et à l'évolution
+      demonstrated: >-
+        Compétence avérée dans le développement / la conception et l'utilisation
+        des API REST appropriées
+      developing: >-
+        Développer et maintenir de solides relations de travail - à la fois
+        client et personnel
+      effectively: >-
+        Utilisation correcte des normes de codage et fréquemment consultés sur
+        les meilleures pratiques et méthodes pour les tâches et / ou projets à
+        venir
+      leadership: >-
+        Leadership de la nomination par les pairs et délégation efficace aux
+        forces des membres de l'équipe
+      listening: >-
+        Écouter pour comprendre et résoudre des problèmes sur la base d'une
+        pensée critique contextuelle
+      product: >-
+        Développement et réinvention de produits, conduisant à la création de
+        valeur avec un excellent ROI
+      project: >-
+        Leadership de projet / d'équipe - prendre ses responsabilités et faire
+        preuve de responsabilité
+    title: Compétences démontrées
+  education:
+    coma:
+      description: >-
+        Flash, Macromedia, HTML, CSS, Javascript. Animation par ordinateur et
+        web / graphisme contemporain.
+      school: Maître informatique
+      title: Diplôme en études des nouveaux médias
+    title: Éducation
+    uvic:
+      description: >-
+        Option graphique et jeu - Intensif en mathématiques, théorie et concepts
+        derrière les pratiques de programmation modernes et optimisation des
+        structures de base de données. Accent sur la POO.
+      school: Université de Victoria
+      title: Baccalauréat en informatique
+  experience:
+    mk2:
+      description: Consultez sur une variété de systèmes et de projets.
+      title: Développeur principal
+    mk2solutions:
+      assessed: >-
+        Évaluer les informations recueillies lors des réunions avec les clients
+        pour créer ou affiner les spécifications du produit.
+      contributed: >-
+        Contribution au processus de recrutement et de sélection des nouveaux
+        programmeurs
+      description: >-
+        Relevé du président et responsable de tous les aspects de la
+        programmation (développement de site Web personnel ou corporatif) pour
+        l'entreprise
+      participated: >-
+        Participer aux réunions clients et s'assurer de la compréhension de
+        leurs besoins et attentes.
+      provided: >-
+        Contribution à des méthodes pour augmenter la génération de revenus ou
+        améliorer l'efficacité.
+      title: Développeur principal
+    neverblue:
+      company: Neverblue Media
+      converted: >-
+        Conversion d'anciens projets vers le nouveau framework Symfony2.x, avec
+        un générateur de formulaires unique et unique utilisé sur Netdegree.com
+        (qui offre un traitement en temps quasi réel de formulaires basés sur
+        des données avec jusqu'à 3 millions de + de dépendances de champs et
+        d'éléments).
+      description: >-
+        Travailler directement avec le réseau principal pour créer des pages de
+        destination correctement conçues et fonctionnelles pour les affiliés et
+        les éditeurs. Mon objectif principal était de développer des solutions
+        personnalisées pour Neverblue et ses affiliés en utilisant Symfony1.4 et
+        Symfony2.x.
+      title: Développeur principal de contenu numérique
+    priologic:
+      cisco:
+        company: Systèmes Cisco
+        consulted: >-
+          Consulté par les chefs de projet sur les meilleures pratiques, les
+          implémentations d'API REST et les flux de travail qui répondraient le
+          mieux aux exigences, réduiraient le temps de codage et fourniraient le
+          contenu à l'utilisateur final aussi précisément et efficacement que
+          possible
+        created: 'Création, maintenance et déploiement de nouveaux projets angulaires.'
+        reporting: >-
+          Reporting aux chefs de projet sur divers projets interministériels et
+          responsable d'une variété de conceptions et d'implémentations
+          d'interface utilisateur.
+        successfully: Navigation réussie dans des équipes situées à travers le monde.
+        title: Développeur d'interface utilisateur intermédiaire
+        updated: Mise à jour et extension de plusieurs projets préexistants.
+        updated_2: >-
+          Projets angulaires mis à jour pour utiliser des commutateurs de
+          configuration de sorte que plusieurs plates-formes puissent utiliser
+          le même ensemble de code / référentiels tout en offrant un contenu
+          différent et une apparence et une sensation différentes.
+        worked: >-
+          Travaillé en équipes collaboratives, avec une variété de technologies
+          d'interface utilisateur, notamment: backbone, angular, jQuery et
+          divers plugins JavaScript pour effectuer des tâches spécifiques.
+      company: Priologic Software
+      developed: >-
+        Développement d'un générateur de formulaire dynamique par
+        glisser-déposer Angular 4/5 | React conçu avec la possibilité
+        d'interactions/soumissions de formulaires collaboratifs sur plusieurs
+        plates-formes/emplacements.
+      first_voices:
+        assisted: >-
+          J'ai assisté au développement bêta, mis à jour les flux de processus
+          (React / Java), géré le tri alphabétique personnalisé et les
+          traductions (java), et dans React créé / converti le service de
+          localisation dynamique personnalisé des sites (anglais, français,
+          espagnol,… personnalisé).
+        company: FirstVoices (c / o BC Government)
+        link: >-
+          https://firstvoices.com - FirstVoices est une suite d'outils et de
+          services Web conçus pour soutenir les peuples autochtones engagés dans
+          l'archivage des langues, l'enseignement des langues et la
+          revitalisation de la culture. Une ressource en ligne révolutionnaire
+          d'archivage et d'enseignement des langues autochtones.
+        site: >-
+          Le site FirstVoices est une combinaison d'un front-end React avec un
+          backend Nuxeo, pris en charge par le middleware Java, et un système
+          intl étendu / dynamique.
+        title: Développeur UI
+      internal:
+        title: Développeur Ui Senior
+      title: Développeur Intermédiaire / Senior Ui / Fullstack
+      veritas:
+        company: Veritas Technologies
+        integration: Intégration de Drupal 7 dans la plateforme de gestion d'API Apigee.
+        title: Développeur Senior Ui/Fullstack
+        updated: Mise à jour et extension de plusieurs projets préexistants.
+        worked: >-
+          A travaillé dans et avec de grandes équipes de collaboration, avec une
+          variété de technologies d'interface utilisateur.
+    title: L'expérience professionnelle
+    verb:
+      company: Verb Interactive
+      description: >-
+        Mon temps chez Verb interactive a été la majorité de mon temps et je me
+        suis concentré sur un seul projet, de la collecte des exigences
+        initiales à la sortie finale pour une compagnie de traversiers
+        canadienne. Mon projet consistait à créer un moteur de réservation
+        permettant aux passagers de créer et / ou de modifier intégralement
+        leurs réservations en ligne. L'API de données principale est accessible
+        via une API SOAP tierce. À l'aide de Symfony5, nous avons créé un
+        middleware pour simplifier l'API SOAP et proposer une API REST interne
+        beaucoup plus simple pour le front-end de réservation. Le frontal de ce
+        système utilise la dernière version de React utilisant Redux, écrite en
+        Typescript. Les paiements pour le système sont traités par l'API de
+        Moneris et les paiements hébergés de Moneris. Le projet a été géré par
+        des sprints agiles. Git a été utilisé en utilisant des branches de
+        fonctionnalités, des requêtes de fusion appropriées et une révision du
+        code. Plusieurs pipelines d'intégration continue ont été mis en place et
+        maintenus pour construire et déployer sur leurs serveurs d'environnement
+        respectifs.
+      items:
+        created: >-
+          Création d'une solution Full-stack personnalisée pour les réservations
+          Atlantic Ferry
+        direct: >-
+          Interactions directes avec les clients pour les exigences du projet,
+          les commentaires et le soutien continu
+        facilitated: >-
+          Communication/actions de pré-lancement et de lancement facilitées
+          entre le client, l'équipe de développeurs et DevOps
+        mentored: Développeurs juniors/intermédiaires encadrés
+        team_lead: Chef d'équipe pour le bureau de Victoria de 6 développeurs
+      title: Chef d'équipe / Développeur senior
+  links:
+    title: Liens
+  skills:
+    title: compétences
+    titles:
+      javascript_frameworks: Cadres Javascript
+      languages: Les langues
+      misc: divers
+      php_frameworks: Cadres PHP
+      software: Logiciel
+      styling_frameworks: Cadres de style
+      version_control: Contrôle de version
+  summary:
+    items:
+      '15': >-
+        Plus de 15 ans d'expérience dans le développement Web avec une longue
+        liste de projets réussis
+      adept: >-
+        Habile à comprendre / interpréter des informations extrêmement complexes
+        dans un langage convivial
+      confident: >-
+        Développeur Web professionnel confiant et talentueux avec une énergie et
+        des aptitudes exceptionnellement fortes
+      driven: Driven to stay current in knowledge and well ahead of consumer trends
+      hard_working: >-
+        Travail acharné et dévoué avec une motivation intrinsèque provenant de
+        la création de solutions à des problèmes
+      lives: >-
+        Programmation «vit & respire», fière de sa capacité à surmonter les
+        «défis impossibles»
+      skilled: >-
+        Compétence en programmation orientée objet, création de code
+        contemporain, propre, évolutif, lisible et réutilisable
+      spatially: >-
+        Spatialement conscient et intuitif - créer des solutions en avance sur
+        les tendances
+    title: Résumé
+site:
+  description: CV de Josh McCreight
+  title: CV de Josh McCreight
+words:
+  ad_tracking_tracing: Suivi/traçage des annonces
+  affiliate_marketing: Le marketing d'affiliation
+  agile: agile
+  agile_development: Développement agile
+  algorithm_design: Conception d'algorithmes
+  angular: Angular
+  angular4: Angular 4
+  apigee: Apigee
+  apis: Apis
+  atlassiansuite: Suite Atlassian
+  authorizenet: Authorize.Net
+  axios: Axios
+  back_end: Back-End
+  backbone: Backbone
+  body: Contenu de l'e-mail
+  bookit: Bookit
+  bootstrap: Bootstrap 3|4
+  bootstrap_gt_4: Bootstrap ^4
+  british_columbia: Colombie britannique
+  cico: CI/CO
+  composer: Composer
+  confluence: Confluence
+  copyright: droits d'auteur
+  css: CSS
+  current: maintenant
+  database_design: Conception de base de données
+  datatables: Datatables.net
+  django: Django
+  docker: Docker
+  doctrine: Doctrine
+  drupal: Drupal 7+
+  drupal7: Drupal 7
+  drupal_gt_8: Drupal ^8
+  eclipseides: Exclipse* IDE's
+  email: Email
+  email_address: Adresse électronique
+  extjs: ExtJs
+  from_email: De l'adresse e-mail
+  front_end: Front-End
+  full_stack: Full-Stack
+  git: Git
+  github: Github
+  github_self: GitHub (ce site)
+  gitlab: GitLab
+  grunt: Grunt
+  gulp: Gulp
+  highcharts: Highcharts
+  html: HTML
+  jasmine: Jasmine
+  java: Java
+  javascript: JavaScript
+  jenkins: Jenkins
+  jira: Jira
+  josh: Josh
+  josh_mccreight: Josh McCreight
+  jqplot: jQPlot
+  jquery: jQuery
+  js: JS
+  json: JSON
+  keywords: Mots clés
+  less: Less
+  lessscss: Less/Scss
+  linkedin: linkedIn
+  linux: Linux
+  linux_centos: CentOS
+  linux_ubuntu: Ubuntu
+  materialdesign: Conception matérielle
+  mentorship: Mentorat
+  mocha: Mocha
+  mocha_jasmine: Mocha/Jasmine
+  mochajasmine: Mocha/Jasmine
+  moneris: Moneris
+  msoffice: MS Office
+  mustache: Mustache
+  mysql: MySQL
+  netbeans: Netbeans
+  netdegree: Netdegree
+  nodejs: NodeJS
+  npm: NPM
+  nuxeo: Nuxeo
+  of: de
+  paypal: Paypal
+  pgadmin: PgAdmin
+  phone: Téléphone
+  photoshop: Photoshop
+  php: PHP
+  phpmyadmin: PHPMyAdmin
+  phpstorm: PHPStorm
+  phpunit: PHPUnit
+  pipelines: Pipelines
+  postgresql: PostgreSQL
+  postman: Postman
+  rally: Rally
+  react: React (ts|js)
+  react_redux: React Redux
+  react_sagas: React Sagas
+  reacttsjs: React (ts|js)
+  rest: REST
+  rest_internal: Internal REST
+  scss: Scss
+  senior_developer: DEVELOPPEUR sénior
+  server_administration: Administration du serveur
+  soap: SOAP
+  svn: SVN
+  symfony: Symfony (4/5+)
+  symfony_1_4: Symfony 1.4
+  symfony_gt_2: Symfony ^2
+  symfony_gt_5: Symfony ^5
+  team_lead: Chef d'équipe
+  title: Titre
+  to: à
+  twig: Twig
+  typescript: Manuscrit
+  underscore: Underscore
+  unit_tests: Tests unitaires
+  victoria: Victoria
+  victoria_bc: Victoria Colombie-Britannique
+  vmware: VMWare
+  webpack: Webpack
+  wordpress: Wordpress
+  xdebug: XDebug
+  yarn: Yarn
+  zendframework: Zend Framework
+
