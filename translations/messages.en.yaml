@@ -17,7 +17,7 @@ links:
     bundle will allow dumping roles and accesses to the database. Uses
     subscribers to update, verify, validate and sync config roles and accesses
     to those entered into the database.
-  github_reverse_discriminator: Symfony Bundle - Reverse Entity Discriminator (COMING SOON)
+  github_reverse_discriminator: Symfony Bundle - Discriminator Entry
   github_reverse_discriminator_description: >-
     Instead of declaring @ORM\DiscriminatorMap and declaring all possible
     children, this bundle will give the ability to place @DiscriminatorChild on

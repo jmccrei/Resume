@@ -18,7 +18,7 @@ links:
     datos. Utiliza suscriptores para actualizar, verificar, validar y
     sincronizar roles de configuración y accesos a los ingresados ​​en la base
     de datos.
-  github_reverse_discriminator: Paquete Symfony - Discriminador de entidad inversa (PRÓXIMAMENTE)
+  github_reverse_discriminator: Paquete Symfony - Entrada discriminadora
   github_reverse_discriminator_description: >-
     En lugar de declarar @ORM\DiscriminatorMap y declarar todos los elementos
     secundarios posibles, este paquete permitirá colocar @DiscriminatorChild en

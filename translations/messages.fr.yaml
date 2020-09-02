@@ -17,7 +17,7 @@ links:
     bundle autorisera le vidage des rôles et des accès à la base de données.
     Utilise les abonnés pour mettre à jour, vérifier, valider et synchroniser
     les rôles de configuration et accéder à ceux saisis dans la base de données.
-  github_reverse_discriminator: Bundle Symfony - Discriminateur d'entité inversée (À VENIR)
+  github_reverse_discriminator: Bundle Symfony - Entrée du discriminateur
   github_reverse_discriminator_description: >-
     Au lieu de déclarer @ORM\DiscriminatorMap et de déclarer tous les enfants
     possibles, ce bundle donnera la possibilité de placer @DiscriminatorChild

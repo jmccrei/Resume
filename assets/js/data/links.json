@@ -66,19 +66,19 @@
     {
       "text": {
         "id": "links.github_reverse_discriminator",
-        "defaultMessage": "Symfony Bundle - Reverse Discriminator",
+        "defaultMessage": "Symfony Bundle - Discriminator Entry",
         "description": "word"
       },
       "title": {
         "id": "links.github_reverse_discriminator",
-        "defaultMessage": "Symfony Bundle - Reverse Discriminator",
+        "defaultMessage": "Symfony Bundle - Discriminator Entry",
         "description": "word"
       },
       "description": {
         "id": "links.github_reverse_discriminator_description",
-        "defaultMessage": "Instead of declaring @ORM\\DiscriminatorMap and declaring all possible children, this bundle will give the ability to place @DiscriminatorChild on the child Entity instead."
+        "defaultMessage": "Instead of declaring @ORM\\DiscriminatorMap and declaring all possible children, this bundle will give the ability to place @DiscriminatorEntry on the child Entity instead."
       },
-      "href": "https://github.com/jmccrei/ReverseDiscriminatorBundle",
+      "href": "https://github.com/jmccrei/DiscriminatorEntryBundle",
       "attr": {},
       "img": null,
       "target": "_blank",
@@ -87,19 +87,19 @@
     {
       "text": {
         "id": "links.github_db_roles_access",
-        "defaultMessage": "Symfony Bundle - Databased Roles|Access",
+        "defaultMessage": "Symfony Bundle - User Management",
         "description": "word"
       },
       "title": {
         "id": "links.github_db_roles_access",
-        "defaultMessage": "Symfony Bundle - Databased Roles|Access",
+        "defaultMessage": "Symfony Bundle - User Management",
         "description": "word"
       },
       "description": {
         "id": "links.github_db_roles_access_description",
-        "defaultMessage": "Rather than statically declaring all roles and accesses through config, this bundle will allow dumping roles and accesses to the database. Uses subscribers to update, verify, validate and sync config roles and accesses to those entered into the database."
+        "defaultMessage": "User Manager with Databased roles and access. Rather than statically declaring all roles and accesses through config, this bundle will allow dumping roles and accesses to the database. Uses subscribers to update, verify, validate and sync config roles and accesses to those entered into the database."
       },
-      "href": "https://github.com/jmccrei/DbRolesAccessBundle",
+      "href": "https://github.com/jmccrei/UserManagementBundle",
       "attr": {},
       "img": null,
       "target": "_blank",
