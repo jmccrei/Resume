@@ -1,6 +1,12 @@
 {
   "type": "project",
   "license": "proprietary",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/jmccrei/DevUserManagementBundle.git"
+    }
+  ],
   "require": {
     "php": "^7.2.5",
     "ext-ctype": "*",
@@ -11,6 +17,7 @@
     "doctrine/doctrine-migrations-bundle": "^3.0",
     "doctrine/orm": "^2.7",
     "friendsofsymfony/jsrouting-bundle": "^2.6",
+    "jmccrei/user-management-bundle": "dev-master as 1.0-stable",
     "jms/serializer-bundle": "^3.7",
     "phpdocumentor/reflection-docblock": "^5.2",
     "sensio/framework-extra-bundle": "^5.6",

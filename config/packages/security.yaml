@@ -1,0 +1,43 @@
+security:
+  encoders:
+    Jmccrei\UserManagementBundle\Entity\User:
+      algorithm: auto
+
+  # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
+  providers:
+    users_in_memory: { memory: null }
+    jmccrei_user_provider:
+      entity:
+        class: Jmccrei\UserManagementBundle\Entity\User
+        property: email
+
+  firewalls:
+    dev:
+      pattern: ^/(_(profiler|wdt)|css|images|js)/
+      security: false
+    main:
+      anonymous: true
+      lazy: true
+      provider: jmccrei_user_provider
+      guard:
+        authenticators:
+          - Jmccrei\UserManagementBundle\Security\LoginFormAuthenticator
+      form_login:
+        csrf_token_generator: security.csrf.token_manager
+        login_path: security_login
+      logout:
+        path: security_logout
+        target: security_login
+      switch_user: { role: ROLE_SWITCH_USER }
+
+      # activate different ways to authenticate
+      # https://symfony.com/doc/current/security.html#firewalls-authentication
+
+      # https://symfony.com/doc/current/security/impersonating_user.html
+      # switch_user: true
+
+  # Easy way to control access for large sections of your site
+  # Note: Only the *first* access control that matches will be used
+  access_control:
+  # - { path: ^/admin, roles: ROLE_ADMIN }
+  # - { path: ^/profile, roles: ROLE_USER }
